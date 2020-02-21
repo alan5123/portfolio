@@ -23,7 +23,7 @@ border-radius:35px;
 margin-right:5%;
 margin-left 5px;
 margin:1%;
-border:solid black 1px;
+border: solid silver 1.7px;
 
 `
 
