@@ -134,7 +134,7 @@ const Main = (props) => {
         <div>
          <h2>First Build Week Project</h2>
          <VrFunding src={vrfunding} alt="Alan" />
-        <p>Another student and i worked together for 5 days building marketing pages for a VR funding platform using just html and css. You can view it in more detail <a href = "https://vrfundingplatform.github.io/marketing-page/index.html">here</a></p>
+        <p>Another student and I worked together for five days building marketing pages for a VR funding platform using just html and css. You can view it in more detail <a href = "https://vrfundingplatform.github.io/marketing-page/index.html">here</a></p>
     </div>
 
         </VrDiv>
