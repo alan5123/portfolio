@@ -52,6 +52,7 @@ border-bottom: solid black;
 font-weight: 450;
 @media (max-width: 440px){
   font-weight: 350;
+  width:90%;
    }
 `
 
