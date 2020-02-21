@@ -124,7 +124,7 @@ const Main = (props) => {
         <h2>About Me</h2>
         <P>Hello my name is Alan Parker, I am a 21 year old Lambda Web Development student from Alexandria VA hoping to make this my career.</P>
 <br></br>
-        <P>So I chose the Lambda program because I was very interested in computers but didnt know what I wanted to do with them. A friend had told me about this program so I tried the pre-course for web development and i enjoyed it so much i decided i wanted to do this for a career. There is something really rewarding about building something from code.</P>
+        <P>So I chose the Lambda program because I was very interested in computers but didnt know what I wanted to do with them. A friend had told me about this program so I tried the pre-course for web development and I enjoyed it so much I decided I wanted to do this for a career. There is something really rewarding about building something from code.</P>
         <br></br>
         <p>During my free time I love playing video games, I also enjoy doing jiu jitsu although havent had time for it lately</p>
      </AboutText>
