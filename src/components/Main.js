@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Flex = styled.div `
 display:flex;
+margin:0 3%;
+
 @media (max-width: 800px){
   flex-direction:column-reverse
   }
@@ -25,7 +27,7 @@ padding:2rem 4rem;
 border: solid silver 1.7px;
 background-color:white;
 @media (max-width: 500px){
-    color:red;
+    margin:0 auto;
     }
 `
 const FirstColumn = styled.div `
@@ -36,7 +38,7 @@ margin-left:8px;
 @media (max-width: 800px){
 
   width:100%;
-margin-top:5rem;
+margin-top:2rem;
   margin-left:0;
   text-align:center;
 
@@ -94,8 +96,12 @@ align-items:center;
 
 `
 const VrFunding = styled.img `
-width:600px;
+max-width: 100%;
+  height: auto;
 margin:3% 0;
+
+
+
 
 `
 
