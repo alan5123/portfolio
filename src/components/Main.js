@@ -122,11 +122,11 @@ const Main = (props) => {
       <FirstColumn className = 'FirstColumn'>
      <AboutText className = 'About'>
         <h2>About Me</h2>
-        <P>Hello my name is Alan Parker, i am a 21 year old Lambda Web Development student from Alexandria VA hoping to make this my career.</P>
+        <P>Hello my name is Alan Parker, I am a 21 year old Lambda Web Development student from Alexandria VA hoping to make this my career.</P>
 <br></br>
-        <P>So i chose the Lambda program because i was very interested in computers but didnt know what i wanted to do with them. A friend had told me about this program so i tried the pre-course for web development and i enjoyed it so much i decided i wanted to do this for a career. There is something really rewarding about building something from code.</P>
+        <P>So I chose the Lambda program because I was very interested in computers but didnt know what I wanted to do with them. A friend had told me about this program so I tried the pre-course for web development and i enjoyed it so much i decided i wanted to do this for a career. There is something really rewarding about building something from code.</P>
         <br></br>
-        <p>During my free time i love playing video games, i also enjoy doing jiu jitsu although havent had time for it lately</p>
+        <p>During my free time I love playing video games, I also enjoy doing jiu jitsu although havent had time for it lately</p>
      </AboutText>
 
         <VrDiv>

@@ -32,6 +32,7 @@ display:flex;
 justify-content:flex-end;
 flex-direction:column
 
+
 `
 
 const TextName = styled.h2 `
