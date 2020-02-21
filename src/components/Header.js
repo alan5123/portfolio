@@ -24,7 +24,9 @@ margin-right:5%;
 margin-left 5px;
 margin:1%;
 border: solid silver 1.7px;
-
+@media (max-width: 440px){
+  display:none;
+   }
 `
 
 const Text = styled.div `
@@ -37,6 +39,10 @@ flex-direction:column
 
 const TextName = styled.h2 `
 color:black;
+@media (max-width: 440px){
+  font-size:4rem;
+  font-weight: 350;
+   }
 `
 
 const TextOne = styled.p `
@@ -44,6 +50,9 @@ font-size:40px;
 color:black;
 border-bottom: solid black;
 font-weight: 450;
+@media (max-width: 440px){
+  font-weight: 350;
+   }
 `
 
 
