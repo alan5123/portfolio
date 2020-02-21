@@ -7,7 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Flex = styled.div `
 display:flex;
-
+@media (max-width: 800px){
+  flex-direction:column-reverse
+  }
 `
 
 const SecondColumn = styled.div `
@@ -30,9 +32,15 @@ const FirstColumn = styled.div `
 width:70%;
 text-align:center;
 
+margin-left:8px;
+@media (max-width: 800px){
 
-margin-left:8px
+  width:100%;
+margin-top:5rem;
+  margin-left:0;
+  text-align:center;
 
+   }
 ` 
 
 const Skills = styled.div `
@@ -58,6 +66,10 @@ margin-left:5rem;
 padding:1rem;
 width:90%;
 background-color:white;
+@media (max-width: 800px){
+  width:95%;
+  margin: 0 auto
+   }
 
 `
 
@@ -74,6 +86,11 @@ justify-content:flex-start;
 display:flex;
 flex-direction:column;
 align-items:center;
+@media (max-width: 800px){
+  width:95%;
+  margin: 5% auto
+   }
+
 
 `
 const VrFunding = styled.img `
