@@ -29,7 +29,7 @@ background-color:white;
 const FirstColumn = styled.div `
 width:70%;
 text-align:center;
-height:20rem;
+
 
 margin-left:8px
 
@@ -39,10 +39,8 @@ const Skills = styled.div `
 border: solid silver 1.7px;
 margin-top:1.5rem;
 
-height:20rem;
-display: flex;
-flex-direction:column;
-align-items:center;
+
+
 padding-top:5px;
 
 background-color:white;
@@ -50,12 +48,12 @@ background-color:white;
 
 
 const AboutText =styled.div `
-display: flex;
+
 flex-direction:column;
 justify-content:flex-start;
 align-items:flex-start;
 
-height:20rem;
+
 margin-left:5rem;
 padding:1rem;
 width:90%;
@@ -84,6 +82,16 @@ margin:3% 0;
 
 `
 
+const P = styled.p `
+font-size:18px;
+
+`
+
+const CenterText = styled.h2 `
+text-align:center;
+`
+
+
 
 const Main = (props) => {
     return (
@@ -91,10 +99,11 @@ const Main = (props) => {
       <FirstColumn className = 'FirstColumn'>
      <AboutText className = 'About'>
         <h2>About Me</h2>
-        <p>i like to code blah blah i like to code blah blahi like to code blah blahi like to code blah blahi like to code blah blahi like to code blah blah</p>
-
-        <p>blah blah more stuff about me blah blah</p>
-        <p>blah blah more stuff about me blah blah</p>
+        <P>Hello my name is Alan Parker, i am a 21 year old Lambda Web Development student from Alexandria VA hoping to make this my career.</P>
+<br></br>
+        <P>So i chose the Lambda program because i was very interested in computers but didnt know what i wanted to do with them. A friend had told me about this program so i tried the pre-course for web development and i enjoyed it so much i decided i wanted to do this for a career. There is something really rewarding about building something from code.</P>
+        <br></br>
+        <p>During my free time i love playing video games, i also enjoy doing jiu jitsu although havent had time for it lately</p>
      </AboutText>
 
         <VrDiv>
@@ -130,8 +139,16 @@ const Main = (props) => {
              </ContactDiv>
 
              <Skills className = 'Skills'> 
-                <h2> Skills </h2>
-<p>lorem lorem lorem lorem lorem lorem</p>
+                <CenterText> Skills </CenterText>
+<ul>
+    <li>Git</li>
+    <li>HTML</li >
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Less</li>
+
+    <li>Currently Learning React</li>
+</ul>
 
              </Skills>
 

@@ -53,7 +53,7 @@ const Header = (props) => {
         <JumboHeaderTwo fluid>
         <Picture src={Alan} alt="Alan" />
         <Text>
-          <TextName className="display-3">Alan G Parker</TextName>
+          <TextName className="display-3">Alan Parker Jr</TextName>
           <TextOne className="lead">Web Developer</TextOne>
           </Text>
         </JumboHeaderTwo>
