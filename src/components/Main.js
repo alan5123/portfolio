@@ -31,15 +31,15 @@ background-color:white;
     }
 `
 const FirstColumn = styled.div `
-width:70%;
+width:76%;
 text-align:center;
 
-margin-left:8px;
+
 @media (max-width: 800px){
 
   width:100%;
 margin-top:2rem;
-  margin-left:0;
+  
   text-align:center;
 
    }
@@ -64,7 +64,7 @@ justify-content:flex-start;
 align-items:flex-start;
 
 
-margin-left:5rem;
+margin-left:2.5rem;
 padding:1rem;
 width:90%;
 background-color:white;
@@ -77,8 +77,8 @@ background-color:white;
 
 const VrDiv = styled.div `
 border:solid red;
-margin-left:5rem;
-margin: 5rem;
+margin-left:2.5rem;
+margin: 5rem 2.5rem;
 
 padding: 2rem;
 width:90%;
