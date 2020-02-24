@@ -1,6 +1,7 @@
 import React from 'react';
-import styled from "styled-components"
-import vrfunding from "../assests/vrfunding.PNG"
+import styled from "styled-components";
+import vrfunding from "../assests/vrfunding.PNG";
+import nasa from "../assests/Nasa.PNG"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -137,9 +138,17 @@ const Main = (props) => {
         <p>Another student and I worked together for five days building marketing pages for a VR funding platform using just html and css. You can view it in more detail <a href = "https://vrfundingplatform.github.io/marketing-page/index.html">here</a></p>
     </div>
 
+
         </VrDiv>
 
 
+        <VrDiv>
+        <div>
+         <h2>NASA Photo of The Day</h2>
+         <VrFunding src={nasa} alt="Alan" />
+        <p>This project i made a React app that updates itself every day with a different picture from NASA's photo of the day.</p>
+    </div>
+    </VrDiv>
       </FirstColumn>
 
 
