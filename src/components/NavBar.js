@@ -21,6 +21,11 @@ import {
 const NavStyle = styled.a `
 text-decoration:none;
 color:black;
+display:none;
+
+@media (max-width: 800px){
+  display:block;
+   }
 `
 
 function NavBar() {
