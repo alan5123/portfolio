@@ -146,7 +146,7 @@ const Main = (props) => {
         <div>
          <h2>NASA Photo of The Day</h2>
          <VrFunding src={nasa} alt="Alan" />
-        <p>This project i made a React app that updates itself every day with a different picture from NASA's photo of the day. You can view it in more detail <a href = "https://alan5123.github.io/nasa-photo-of-the-day/">here</a></p>
+        <p>This project i made a React app that updates itself every day with a different picture from NASA's photo of the day.</p>
     </div>
     </VrDiv>
       </FirstColumn>
