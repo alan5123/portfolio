@@ -135,7 +135,7 @@ const Main = (props) => {
         <div>
          <h2>First Build Week Project</h2>
          <VrFunding src={vrfunding} alt="Alan" />
-        <p>Another student and I worked together for five days building marketing pages for a VR funding platform using just html and css. You can view it in more detail <a href = "https://vrfundingplatform.github.io/marketing-page/index.html">here</a></p>
+        <p>Another student and I worked together for five days building marketing pages for a VR funding platform using just html and css. You can view It In more detail <a href = "https://vrfundingplatform.github.io/marketing-page/index.html">here</a></p>
     </div>
 
 
@@ -146,7 +146,7 @@ const Main = (props) => {
         <div>
          <h2>NASA Photo of The Day</h2>
          <VrFunding src={nasa} alt="Alan" />
-        <p>This project i made a React app that updates itself every day with a different picture from NASA's photo of the day.</p>
+        <p>This project I made a React app that updates itself every day with a different picture from NASA's photo of the day.</p>
     </div>
     </VrDiv>
       </FirstColumn>
